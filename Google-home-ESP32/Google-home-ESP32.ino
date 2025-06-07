@@ -139,7 +139,7 @@ void setupSinricPro() {
 
 void setupRelay() {
   pinMode(RELAY_PIN, OUTPUT);
-  digitalWrite(RELAY_PIN,HIGH); // Initialize relay in the OFF state
+  //digitalWrite(RELAY_PIN,HIGH); // Initialize relay in the OFF state
 }
 
 void setupSwitch() {
